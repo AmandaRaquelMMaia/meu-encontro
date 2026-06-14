@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+    
+</head>
+<body>
+    <div class="opcoes-grupo">
+        <h1>O que vamos comer?</h1><br>
+
+        <form id="meuForm">
+            <div class="cards-container">
+                <label>
+                    <input type="checkbox" id="sushi" name="opcoes_selecionadas" value="sushi" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/sushi.png" alt="sushi" class="opcao-imagem">                           
+                        <span class="opcao-palavra">Sushi</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="pizza" name="opcoes_selecionadas" value="pizza" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/pizza.jpg" alt="pizza" class="opcao-imagem">                            
+                        <span class="opcao-palavra">Pizza</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="barzinho" name="opcoes_selecionadas" value="barzinho" class="opcao-input" >
+                    <div class="imagem-local-grupo">
+                        <img src="../img/bar.png" alt="barzinho" class="opcao-imagem">
+                        <span class="opcao-palavra">Comida de bar</span>
+                    </div>
+                    <div class="opcao-palavra">
+                        
+                    </div> 
+                </label>
+
+                <label>
+                    <input type="checkbox" id="podrao" name="opcoes_selecionadas" value="podrao" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/podrao.webp" alt="podrao" class="opcao-imagem">                            
+                        <span class="opcao-palavra">Podrão</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="outro" name="opcoes_selecionadas" value="outro" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/outros.avif" alt="outro" class="opcao-imagem">                            
+                        <span class="opcao-palavra">Sugerir outro</span>
+                    </div>
+                </label>
+
+            </div>
+            <button type="submit" class="botao-proximo">Avançar</button>
+            <button type="button" onclick="window.location.href='disseSIM.html'">Voltar</button>
+        </form>
+
+    </div>
+</body>
+</html>

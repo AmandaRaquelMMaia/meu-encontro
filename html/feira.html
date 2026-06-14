@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+    
+</head>
+<body>
+    <div class="opcoes-grupo">
+       <h1>Gostaria de ir em uma ou mais dessas feiras?</h1>
+
+        <form id="meuForm">
+            <div class="cards-container">
+                <label>
+                    <input type="checkbox" id="eldorado" name="opcoes_selecionadas" value="eldorado" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/feiraEldorado.jpg" alt="eldorado" class="opcao-imagem">
+                        <span class="opcao-palavra">Feirinha do Eldorado</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="hiper" name="opcoes_selecionadas" value="hiper" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/feiraHippie.webp" alt="Feira hippie" class="opcao-imagem">
+                        <span class="opcao-palavra">Feira Hippie</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="sugestao" name="opcoes_selecionadas" value="sugestao" class="opcao-input">
+                    <div class="imagem-local-grupo">
+                        <img src="../img/outrafeira.jpg" alt="sugestao" class="opcao-imagem">
+                        <span class="opcao-palavra">Sugerir outro feira</span>
+                    </div>
+                </label>
+            </div>
+
+            <button type="submit" class="botao-proximo">Avançar</button>
+            <button type="button" onclick="window.location.href='disseSIM.html'">Voltar</button>
+
+        </form>
+
+    </div>
+</body>
+</html>
